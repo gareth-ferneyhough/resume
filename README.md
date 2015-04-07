@@ -1,3 +1,3 @@
 # my resume
-[download pdf](https://s3-us-west-1.amazonaws.com/gbf-public/vantage+party.jpg)
+[view pdf](https://s3-us-west-1.amazonaws.com/gbf-public/gareth_ferneyhough.pdf)
 
