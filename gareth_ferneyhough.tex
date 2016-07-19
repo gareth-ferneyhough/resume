@@ -31,7 +31,7 @@
 %-----------------------------------------------------------
 %Custom commands
 \newcommand{\resitem}[1]{\item #1 \vspace{-2pt}}
-\newcommand{\resheading}[1]{{\large \colorbox{mygrey}{\begin{minipage}{\textwidth}{\textbf{#1 \vphantom{p\^{E}}}}\end{minipage}}}}
+\newcommand{\resheading}[1]{{\normalsize \colorbox{mygrey}{\begin{minipage}{\textwidth}{\textbf{#1 \vphantom{p\^{E}}}}\end{minipage}}}}
 \newcommand{\ressubheading}[4]{
 \begin{tabular*}{6.5in}{l@{\extracolsep{\fill}}r}
 		\textbf{#1} & #2 \\
@@ -50,7 +50,7 @@
 
 \newcommand{\mywebheader}{
 \begin{tabular*}{7in}{l@{\extracolsep{\fill}}r}
-	\textbf{\href{http://linkedin.com/in/gferneyhough}{\LARGE Gareth B Ferneyhough}} & \href{mailto:gareth.ferneyhough@gmail.com}{gareth.ferneyhough@gmail.com}\\
+	\textbf{\href{http://linkedin.com/in/gferneyhough}{\ Gareth B Ferneyhough}} & \href{mailto:gareth.ferneyhough@gmail.com}{gareth.ferneyhough@gmail.com}\\
 	{\footnotesize \texttt{\colorbox{white}{1232 SW Jefferson St \#402 Portland, OR 97201}}} &  \\
 	{\footnotesize \texttt{\colorbox{white}{(775)250-8441}}}
 	\end{tabular*}
@@ -101,6 +101,17 @@
 				\end{itemize}
 				}
 		\item
+			\ressubheading{\href{http://www.hackoregon.org}{HackOregon}}{Portland, OR}{Volunteer Software Engineer}{June
+            2015 -- December 2015}
+				{ \footnotesize
+				\begin{itemize}
+					\resitem{Led the backend development team for a civic-awareness data-driven web application}
+                    \resitem{Set up and managed the hosting of the web application, API, and database on AWS} 
+                    \resitem{Gained experience designing, using, and supporting a PostgresSQL database}
+				\end{itemize}
+                }
+			
+		\item
 			\ressubheading{\href{http://www.hamiltoncompany.com/}{Hamilton Company}}{Reno, NV}{Software Engineer}{August 2012 -- June 2015}
 				{ \footnotesize
 				\begin{itemize}
@@ -115,10 +126,9 @@
 			\ressubheading{\href{https://www.linkedin.com/in/gferneyhough}{Self-Employed}}{Reno, NV}{Freelance Embedded Software Developer}{August 2013 -- June 2015}
 				{ \footnotesize
 				\begin{itemize}
-					\resitem{Awarded and completed several contracts for the development of networked industrial control software on PIC microcontrollers}
+					\resitem{Designed and implemented networked industrial control software on PIC microcontrollers}
 					\resitem{Gained experience implementing multichannel PID controllers, PWM, network protocols, and I2C and SPI communication}
 					\resitem{Assisted in board bring-up and hardware debugging}
-					\resitem{Improved C programming skills due to the demands of tight timing and memory constraints}
 				\end{itemize}
 				}
 
@@ -129,8 +139,6 @@
 					\resitem{Researched and implemented new emotional speech recognition techniques using Python, Matlab, C, and C++}
 					\resitem{Implemented sound and video processing components and integrated them into virtual neurorobotics scenarios}
 					\resitem{Assisted in authoring, editing, and reviewing journal and conference papers}
-					\resitem{Developed proficiency in finding, compiling, and using a wide variety of software libraries under Debian Linux}
-					\resitem{Provided programming and Linux administration support to other lab members}
 				\end{itemize}
 				}
 	\end{itemize}  % End Experience list
